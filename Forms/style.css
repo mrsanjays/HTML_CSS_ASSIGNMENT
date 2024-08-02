@@ -1,0 +1,43 @@
+.a{
+    width: 91px;
+    height: 93px;
+  
+    margin-left: 100px;
+}
+nav{
+    text-align: center;
+}
+.b{
+    width: 75px;
+    height: 75px;
+}
+
+
+.top{
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.container4{
+    display: flex;
+    justify-content: space-around;
+
+}
+.upload{
+    margin-right: 100px;
+    background-color: rgb(253, 248, 248);
+    border-style: dashed;
+    border-radius: 5px;
+}
+
+.apply{
+    
+    width: 200px;
+    
+}
+
+.apply a{
+    background-color: red;
+    color: aliceblue;
+    padding: 5px;
+}

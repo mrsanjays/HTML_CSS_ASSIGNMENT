@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #ff6f61;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header .logo {
+    float: left;
+    font-size: 24px;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    color: #fff;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.hero form {
+    margin-top: 20px;
+}
+
+.hero form input {
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    width: 300px;
+}
+
+.hero form button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background: #ff6f61;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.restaurants {
+    padding: 40px 0;
+}
+
+.restaurants h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.restaurant-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.restaurant {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.restaurant img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.restaurant h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
